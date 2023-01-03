@@ -1,0 +1,562 @@
+[this is comment]
+[Save this file in UTF-8 Format without BOM]
+[Format: key=value]
+[Only values must be changed]
+[Note the double '&&' char for ampersand '&' char]
+[If you type only one '&', it won't be displayed]
+[LanguageFile]
+Lng_Lng=en
+Lng_Lib=English
+Lng_Cpr=English Translation by
+Lng_Ath=Chapo
+Lng_Web=http://www.17buddies.net
+Lng_Eml=yourmail@yourprovider.com
+Lng_Rst=You must restart this application\nfor changes to take place.
+
+[Buttons]
+btn_yes=Yes
+btn_no=No
+btn_ok=Ok
+btn_cancel=Cancel
+btn_yesforall=Yes for all
+btn_noforall=No for all
+btn_close=Close
+btn_quit=Quit
+
+[About_Dlg]
+Version_txt=Version
+Copyrht_txt=Copyright
+Disclaim_txt=Disclaimer
+[/AboutDlg]
+
+
+[Download]
+down_notfound=File not found (Session has expired). Canceling...
+down_downwait=Please wait...
+down_downselect=Select destination Mod...
+down_destmod=Destination Mod
+down_down=Download
+down_downended=Installation Complete
+down_downplay=Play
+down_downfolder=View Folder
+down_destfolder=Root folder of destination mod
+down_selectfolder=Select destination folder...
+
+[Commons]
+[Misc]
+common_date=Date
+common_size=Size
+common_none=None
+common_all=All
+
+
+
+
+[Files Format]
+common_exefiles=Application|*.exe
+common_bspfiles=Maps Files (*.bsp)|*.bsp
+common_zipfiles=Pack Files (*.zip;*.rar)|*.zip;*.rar
+common_gcffiles=Cache Files (*.vpk;*.gcf;*.ncf;*.manifest)|*.vpk;*.gcf;*.ncf;*.manifest
+common_multiple=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+common_texfiles=Textures Files (*.wad;*.bsp;*.vtf;*.vmt)|*.wad;*.bsp;*.vtf;*.vmt
+common_opn_imgfiles=Images Files(*.png;*.bmp;*.jpg;*.gif)|*.png;*.bmp;*.jpg;*.jpeg;*.gif
+common_tex_ext=.wad;.bsp;.vtf;.vmt
+common_img_ext=.png;.bmp;.jpg;.jpeg;.gif
+
+[Tooltips]
+common_openfile=Open...
+common_savefile=Save As...
+common_browse=Browse...
+common_ttip_viewlog=View Log
+common_ttip_cancel=Cancel current operation
+common_ttip_close=Close this window
+[Messages]
+common_msg_quit=Really want to quit ?
+common_msg_oneinstance=Application already running.
+common_msg_invalid_filelist=Invalid file list !\nOperation Canceled.
+common_msg_invalid_folder=Invalid destination folder !\nOperation Canceled.
+common_msg_invalid_mod=Mod Invalid or Not Found !\nOperation Canceled.
+common_msg_incorrect_filename=Incorrect Filename !
+common_msg_simulmodeon=Simulation Mode On
+common_msg_buffer_over=Buffer overflow !\nLogs will be truncated.
+common_msg_nosteam=Warning: Using HLBox17b with "no-steam" versions\nmay lead to hazardous results !
+common_msg_notavailable=Sorry but this function is not available \nfor "no-steam" users.
+common_msg_error_opening_file=Error opening file
+common_msg_invalid_file_format=Invalid file format
+common_msg_not_implemented=Sorry! Function still in development.
+[/Commons]
+
+
+[MainWnd]
+[Tabs]
+mainwnd_tab0=Pack
+mainwnd_tab1=Unpack
+mainwnd_tab2=About
+mainwnd_tab3=Textures
+mainwnd_tab4=Xplore
+mainwnd_tab6=Check
+mainwnd_tab7=Tools
+
+[Tooltips]
+mainwnd_ttip_btnquit=Quit HLBox17b
+mainwnd_ttip_btnsetup=Setup
+mainwnd_ttip_btngoweb=Visit 17Buddies's website
+mainwnd_ttip_gopack=Make Pack(s)
+mainwnd_ttip_gounpack=Install Map(s)
+mainwnd_ttip_goquery=Check Maps(s)
+mainwnd_ttip_gobanner=Change "Provided by" banner
+mainwnd_ttip_goclean=Start Cleaning Mod Files
+mainwnd_ttip_texes=Open Texture File(s)
+
+[Tab0]
+[GroupBox]
+mainwnd_tb0_gb_map=Map(s) File(s) to pack 
+mainwnd_tb0_gb_folder=Destination Folder
+mainwnd_tb0_gb_mod=Destination Mod
+[Messages]
+mainwnd_tb0_msg_multiplefiles=You have selected multiple files.\n\nDo you want to make a single package containing all files ?\n(If "No", you will create one package per file.)
+mainwnd_tb0_msg_nopath_error=You must supply a non null and existing folder.\n\n(See 'options' to avoid this message).
+mainwnd_tb0_msg_nopath_warn=No destination folder was supplied.\n\nArchive will be created in the same path as the file(s).
+[Tab1]
+mainwnd_tb1_gb_map=Pack(s) File(s) to unpack
+mainwnd_tb1_gb_folder=Root Installation Folder
+[Tab3]
+mainwnd_tb3_gb_wad=Textures File(s) to open
+[Tab6]
+mainwnd_tb6_gb_folder=Files Folder
+mainwnd_tb6_gb_type=Files Type
+mainwnd_tb6_msg_nofiles=No corresponding files where found.\n\nPlease select another folder.
+mainwnd_tb6_msg_delete=Delete selected map(s) and all related files ?
+mainwnd_tb6_msg_package=Create package(s) for selected files(s) ?
+[Tab7]
+mainwnd_tb7_gb_bannerurl=Steam "Provided by" Banner URL
+mainwnd_tb7_btndef=Set to 17's Buddies default banner
+mainwnd_tb7_msg_changebanner=Change Steam "Provided by" default banner ?
+mainwnd_tb7_msg_changedurl=New banner's Url saved.
+mainwnd_tb7_gb_clean=Clean Custom Files
+mainwnd_tb7_foldertoclean=Folder
+mainwnd_tb7_detectedmod=Mod
+mainwnd_tb7_msg_modpatherror=Error while reading working path infos.
+mainwnd_tb7_msg_modnotinstalled=Sorry but this mod seems to be not installed.\n\nOperation aborted.
+
+
+[ConfDlg]
+[Title]
+confdlg_title=Setup
+[Tabs]
+confdlg_tab1=Pack
+confdlg_tab2=Unpack
+confdlg_tab3=Resgen
+confdlg_tab4=Textures
+confdlg_tab5=System
+
+[GroupBox]
+confdlg_gb_language=Language
+confdlg_gb_checkver=New Version
+confdlg_gb_startbox=Start
+confdlg_gb_quitbox=Quit
+confdlg_gb_resources=Resources files
+confdlg_gb_texturesfiles=Textures files
+confdlg_gb_mapinstal=Maps Installation
+confdlg_gb_ziplevel=Compression Level
+confdlg_gb_replacing=Replace
+confdlg_gb_pakreplacing=Existing Packs
+confdlg_gb_simulation=Simulation Mode
+confdlg_lbl_activsim=Activate (No file written)
+confdgl_gb_multiple_sel=Multiple selection
+confdgl_gb_empty_dstpath=Empty destination path
+confdgl_gb_includewads=Wads Files
+confdgl_gb_existingres=Existing Files
+confdgl_gb_unnecessary=Unnecessary files
+confdgl_gb_associate=Associate to HLBox17b
+confdgl_gb_restore=Check and Restore
+confdgl_gb_exteditor=External Editor
+confdgl_gb_thumbsize=Thumbnails size
+confdgl_gb_export_format=Export Format
+
+[Labels]
+confdlg_level0=Low (High speed)
+confdlg_level1=Normal (Normal speed)
+confdlg_level2=High (Low speed)
+confdlg_level3=Ultra (Very low speed)
+confdlg_lbl_checkatstartup=Check newer version at startup
+confdlg_lbl_checkversionnow=Check Now
+confdlg_lbl_showsplash=Show welcome screen
+confdlg_lbl_askbeforeexit=Confirm before exit
+confdlg_lbl_createres=Create .res file(s)
+confdlg_lbl_include_wads=Include in pack
+confdlg_lbl_analysemaps=Parse and automaticaly sort folders
+confdlg_lbl_lbmiscpath=Name of "Misc" folder
+confdlg_lbl_analysefolder=Automaticaly detect installation folder
+confdlg_lbl_smireplace=Replace existing files without confirmation
+confdlg_lbl_pakreplace=Replace without confirmation
+confdlg_lbl_smiaskwhendiffers=Ask when date/time differs
+confdlg_lbl_multi_ask=Ask what to do.
+confdlg_lbl_multi_pack=Make a pack of all files.
+confdlg_lbl_multi_one=Pack each file separatly.
+confdlg_lbl_empty_warn=Warn and pack in file's folder.
+confdlg_lbl_empty_error=Throw an error.
+confdlg_lbl_empty_folder=Pack in file's folder.
+confdlg_lbl_overwriteres=Overwrite existing file(s)
+confdlg_lbl_includewads=Include wad files
+confdlg_lbl_includecommented=Include commented
+confdlg_lbl_bspfiles=Maps Files (*.bsp)
+confdlg_lbl_pakfiles=Packages Files (*.gcf, *.ncf, *.vpk, *.manifest)
+confdlg_lbl_texfiles=Textures Files (*.wad, *.vtf, *.vmt)
+confdlg_lbl_checknrestore=Check and restore at startup
+confdlg_lbl_extformat=Image Format
+
+
+[Messages]
+confdlg_new_version=A new version of this application is available.\n\nDo you want to download it ?
+confdlg_ver_ok=You already have latest version of this application.
+cchfile_replace={0}\n\nOverwrite existing file?
+cchfile_must_be_updated=Cache file must be updated.\n\nUpdate now?
+
+[PackWnd]
+pack_title=Pack
+packname_title=Pack Name
+[Tooltips]
+packwnd_ttips_viewlog=View Logs...
+[Labels]
+packwnd_lbl_map=Map
+packwnd_lbl_phase=Phase
+packwnd_lbl_total=Total
+packwnd_lbl_task=Task
+packname_text=Type in your pack's name.\n\n(It will be created in the folder specified before)
+package_replace=Package with same name already exists in destination folder.\n\nDo you want to overwrite it?
+package_notreplaced=Skipped: Existing package not replaced
+package_success=Success
+package_error=Error
+package_done=Done
+package_phase1=Open bsp file...
+package_phase2=Read header...
+package_phase3=Read entities...
+package_phase4=Parse datas...
+package_phase5=Analyse folders...
+package_phase6=Search for misc files...
+package_phase7=Parse cache files...
+package_phase8=Control existing files...
+package_phase9=Create ressources file...
+package_phase10=Save package...
+package_phase11=Parse textures...
+
+[UnPakWnd]
+unpack_title=Unpack
+[Tooltips]
+unpackwnd_ttips_viewlog=View Logs
+[Labels]
+unpackwnd_lbl_source=Source
+unpackwnd_lbl_target=Target
+unpackwnd_lbl_file=File
+unpackwnd_lbl_total=Total
+unpackwnd_lbl_archive=Archive
+
+
+[UnPakReport]
+[Tooltips]
+unpackrpt_ttips_expandall=Expand All
+unpackrpt_ttips_collapseall=Collapse All
+[Labels]
+unpackrpt_lbl_log=Extraction Log:
+unpackrpt_lbl_trv=Files Hierarchy:
+
+[UnPakReplace]
+[Title]
+unpackrpl_title=Existing File
+[GroupBox]
+unpackrpl_gb_old=Replace existing file
+unpackrpl_gb_new=With file
+
+[QueryWnd]
+query_title=Check 17b Database
+query_browse_folder_desc=Select Files(s) folder:
+query_btn_makepack=Make Archive(s)
+query_btn_delete=Delete File(s)
+query_data_headtitle0=Files
+query_ttip_delete=Delete selected and all related file(s)
+query_ttip_packmap=Launch Pack module with selected map(s)
+query_ttip_packwad=Create archive of this wad(s)
+query_wads=Wads files
+query_maps=Maps files
+
+[ResgenWnd]
+resgen_title=Ressources File Generator
+[GroupBox]
+resgen_gb_lbl=Map(s) file(s) to analyse
+
+
+[GcfScopeWnd]
+gcfviewer_title=Cache File Viewer
+[GroupBox]
+gcfviewer_gb_lbl=Cache file to open
+[Columns]
+gcf_filename=Name
+gcf_filetype=Type
+gcf_filesize=Size
+gcf_extract=Extract
+gcf_destfolder=Select Destination Folder
+gcf_selection=Selection
+gcf_files=File(s)
+gcf_folders=Folder(s)
+gcf_elements=Elements
+gcf_items=item(s)
+gcf_fragmentation=Fragmentation
+gcf_blocks=Blocks
+gcf_extraction_error=Error during extraction.
+
+[ReportWnd]
+report_title=Log
+
+[CleanupWnd]
+clean_title=Clean Up
+
+[Menus]
+
+
+[Texes Msgs]
+
+
+[Misc]
+txt_copy_flag=Copy
+txt_col_header_name=Name
+txt_col_header_width=Width
+txt_col_header_height=Height
+txt_col_header_size=Size
+
+
+[=============================================================================================]
+
+[Files Format]
+common_exefiles=Application|*.exe
+common_bspfiles=Maps Files (*.bsp)|*.bsp
+common_zipfiles=Pack Files (*.zip;*.rar)|*.zip;*.rar
+common_gcffiles=Cache Files (*.vpk;*.gcf;*.ncf;*.manifest)|*.vpk;*.gcf;*.ncf;*.manifest
+common_multiple=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+common_texfiles=Textures Files (*.wad;*.bsp;*.vtf;*.vmt)|*.wad;*.bsp;*.vtf;*.vmt
+common_wadfiles=Texture File (*.wad)|*.wad
+common_opn_imgfiles=Images Files(*.png;*.bmp;*.jpg;*.gif)|*.png;*.bmp;*.jpg;*.jpeg;*.gif
+common_giffiles=Animated Images(*.gif)|*.gif
+common_sav_imgfiles=Png Image|*.png|Jpeg Image|*.jpg;*.jpeg|Bmp Image|*.bmp|Gif Image|*.gif|Targa Image|*.tga
+
+
+[Menus]
+menu_file=File
+menu_file_open=&Open
+menu_file_close=&Close
+menu_file_closeall=Close &All
+menu_file_recents=&Recents
+menu_file_options=Options
+menu_file_quit=&Quit
+menu_maps=&Maps
+menu_maps_package=Create &Package
+menu_maps_install=&Install a Map
+menu_maps_resgen=Make a &Res file
+menu_texes=&Textures
+menu_texes_createwad=Create New &Wad
+menu_17b=17&Buddies
+menu_17b_check_files=Check &Existing Files
+menu_17b_check_maps=Check &Maps
+menu_17b_check_wads=Check &Wads
+menu_17b_login=&Login
+menu_17b_website=Visit &Website
+menu_steam=&Steam Tools
+menu_steam_banner=Change Loading &Banner
+menu_steam_clean=&Clean Folders
+menu_window=&Window
+menu_win_arrange=&Arrange
+menu_win_cascade=&Cascade
+menu_win_horizontal=&Horizontal
+menu_win_vertical=&Vertical
+menu_win_maximize=Ma&ximize
+menu_win_minimize=Minimi&ze
+menu_help=&Help
+menu_help_about=&About
+
+
+[Common]
+common_file_replace={0}\n\nOverwrite existing file?
+common_ok=Ok
+common_yes=Yes
+common_no=No
+common_none=None
+common_all=All
+common_please_wait=Please wait...
+common_cancel=Cancel
+common_cancel_ttip=Cancel current operation
+common_close=Close
+common_close_ttip=Close window
+common_quit=Quit
+common_quit_ttip=Quit application
+common_openfile=Open...
+common_savefile=Save As...
+common_browse=Browse...
+common_development=Sorry. Function still in development.
+common_loading=Loading...
+common_saving=Saving...
+common_saved=File saved
+common_progression=Progression: {0}% 
+common_parsing=Parsing...Please wait 
+common_width=Width
+common_height=Height
+common_size=Size
+common_date=Date
+common_esctocancel=Press 'Esc' to cancel
+
+[Messages]
+version_new_available=A new version of this application is available.\n\nDo you want to download it ?
+version_lastest_ok=You already have latest version of this application.
+cch_file_must_be_updated=Cache file must be updated.\n\nUpdate now?
+really_want_to_quit=Really want to quit HLBox17b ?
+
+
+[About]
+dlg_about=About...
+disclaimer=Disclaimer
+changelog=Changelog
+
+
+[Download]
+install_completed=Installation Complete
+destination_mod=Destination Mod
+root_folder_mod=Root folder of destination mod
+select_dest_folder=Select destination folder...
+select_dest_mod=Select destination Mod...
+download=Download
+view_folder=View Folder
+play_map=Play
+play_map_ttip=Launch Mod and play map
+file_session_not_found=File not found (Session has expired). Canceling...
+
+[Config]
+confdlg_tab_pack=Pack
+confdlg_tab_unpack=Unpack
+confdlg_tab_resgen=Resgen
+confdlg_tab_textures=Textures
+confdlg_tab_system=System
+confdlg_gb_language=Language
+confdlg_gb_new_version=New Version
+confdlg_gb_start=Start
+confdlg_gb_confirmexit=Quit
+confdlg_gb_simulation=Simulation Mode
+confdlg_chk_new_version=Check newer version at startup
+confdlg_chk_show_welcome=Show welcome screen
+confdlg_chk_ask_before_exit=Confirm before exit
+confdlg_chk_activate_simulation=Activate Simulation (No files will be deleted nor created)
+confdlg_lbl_checkversionnow=Check Now
+confdlg_gb_resources=Resources Files
+confdgl_gb_multiple_sel=Multiple Map Selection
+confdgl_gb_empty_dstpath=Empty Destination Path
+confdlg_gb_existing_packs=Existing Packs
+confdlg_gb_ziplevel=Compresion Level
+confdgl_gb_includewads=Wad Files
+confdlg_chk_createres=Create .res file(s)
+confdlg_rd_multi_ask=Ask what to do
+confdlg_rd_multi_pack=Make a pack of all files
+confdlg_rd_multi_one=Pack each file separatly
+confdlg_chk_pakreplace=Replace without confirmation
+confdlg_chk_include_wads=Include used wads in pack
+confdlg_rd_empty_warn=Warn and pack in file's folder
+confdlg_rd_empty_error=Throw an error
+confdlg_rd_empty_folder=Pack in file's folder
+confdlg_gb_mapinstal=Maps Installation
+confdlg_gb_replacing=Existing Files
+confdlg_chk_parsefolders=Parse and automaticaly sort folders
+confdlg_txt_miscfolder=Name of "Misc" folder, where to put unclassified files
+confdlg_chk_detectfolder=Automaticaly detect target folder
+confdlg_chk_replace=Replace without confirmation
+confdlg_chk_askdatetime=Ask only when date/time differs
+confdgl_gb_unnecessary=Unnecessary Files
+confdgl_gb_existingres=Existing .res File
+confdlg_chk_overwriteres=Overwrite existing file(s)
+confdlg_chk_includecommented=List them commented in .res file
+confdgl_gb_exteditor=External Editor
+confdgl_gb_thumbsize=Thumbnail Size
+confdgl_gb_export_format=Export Format
+confdgl_gb_associate=Associate Files to HLBox17b
+confdgl_gb_checkandrestore=Check And Restore
+confdlg_chk_mapsfiles=Maps files (*.bsp)
+confdlg_chk_paksfiles=Packs files (*.gcf, *.vpk, *.ncf, *.manifest)
+confdlg_chk_texfiles=Textures files (*.wad, *.vmt, *.vft)
+confdlg_chk_checknrestore=Check and restore at startup
+confdlg_browse_img_editor=Select default image editor
+confdgl_gb_newtex_colors=New Texture BackgroundColors
+confdgl_lbl_newtex_color1=Color 1
+confdgl_lbl_newtex_color2=Color 2
+
+
+[textures]
+waddlg_menu_save=Save
+waddlg_menu_saveas=Save As...
+waddlg_menu_export=Export...
+waddlg_menu_import=Import...
+waddlg_menu_edit=Edit
+waddlg_menu_edittex=Modify
+waddlg_menu_showtex=Show
+waddlg_menu_edit_copy=Copy
+waddlg_menu_edit_paste=Paste
+waddlg_menu_edit_cut=Cut
+waddlg_menu_edit_delete=Delete
+waddlg_menu_edit_delshortcut=Del
+waddlg_menu_edit_duplicate=Duplicate
+waddlg_menu_view=View
+waddlg_menu_view_images=Images
+waddlg_menu_view_details=Details
+waddlg_menu_view_transparency=Transparency
+waddlg_menu_viewnormal=Normal
+waddlg_menu_viewmipmaps=Mipmaps
+waddlg_menu_viewtiled=Tiled
+waddlg_menu_viewanimated=Animated
+waddlg_menu_exportanimation=Export Animation...
+waddlg_col_header_name=Name
+waddlg_txt_animation=animation
+waddlg_msg_save_mods=Save modifications for\n\n
+waddlg_msg_delete_one=Delete this image ?
+waddlg_msg_delete_mul=Delete {0} images ?
+waddlg_msg_cantbeempty=Input text can't be empty.
+waddlg_msg_truncateto15=Input text was truncated to 15 chars.
+waddlg_msg_illegalchars=Input text contains invalid chars.
+waddlg_msg_existing_name=Name must be unique !\n\nPlease check your input.
+waddlg_msg_totalimgs=File: {0} images
+waddlg_msg_bad_image_format=Image format not supported !
+waddlg_msg_noeditor=You must first specify a default editor !
+waddlg_msg_source_files_not_supported=Source format files not supported !
+waddlg_msg_no_texes=File doesn't contains any texture.
+waddlg_badtexturedimensions=Bad texture dimensions (Must be minimum 16x16, maximum 512x512 and multiple of 16)
+waddlg_addtexture_hdr=Add Texture
+waddlg_gb_texname=Texture Name
+waddlg_texeshelp=View Textures Infos on 17b
+
+
+[Explorer]
+xpl_filename=Name
+xpl_filetype=Type
+xpl_filesize=Size
+xpl_extract=&Extract...
+xpl_shellexecute=&Shell Execute
+xpl_viewfolder=&View Folder
+xpl_files=File(s)
+xpl_folders=Folder(s)
+xpl_elements=Elements
+xpl_selection=Selection
+xpl_items=item(s)
+xpl_fragmentation=Fragmentation
+xpl_blocks=Blocks
+xpl_destfolder=Select Destination Folder
+xpl_extraction_error=Error during extraction.
+xpl_rootfile_notfound=Root file not found
+xpl_startextract=Extracting Files...
+
+[Replace]
+rpl_title=Replace File
+rpl_existingfile=Replace existing file
+rpl_newfile=With file
+
+[SteamBanner]
+sbn_steambannertitle=Change Steam Banner
+sbn_newbanner=Steam "Provided by" Banner URL
+sbn_default17b=Set to 17's Buddies default banner
+sbn_refreshurl=Refresh url
+sbn_changeurl=Change Steam "Provided by" default banner ?
+sbn_loadingurl=Loading Banner...
+

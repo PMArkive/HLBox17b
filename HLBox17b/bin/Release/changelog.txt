@@ -1,0 +1,64 @@
+5.4.0.0 (26-12-2013)
+--------------------
+. Changed zip library (increase speed)
+. Add support for saving and editing wads files
+. Check version when downloading files from 17b
+
+5.3.0.0 (12-12-2013)
+--------------------
+. Added a way to detect HLBox installation (set 17b cookie during installation).
+
+5.2.0.0 (12-12-2013)
+--------------------
+. Increase mod detection for libraries installed elsewhere than default path.
+
+5.1.0.0 (02-12-2013)
+--------------------
+. Compatibility with new website install feature.
+
+5.0.1.1 (01-12-2013)
+--------------------
+. Fixed a bug when checking for wads.
+
+5.0.0.1 (01-11-2013)
+--------------------
+. Added support for new SteamPipe storage format.
+
+4.0.0.1 (09-09-2013)
+--------------------
+. Using .NET 4.0 Framework.
+
+3.8.0.1 (05-12-2013)
+--------------------
+. Encoding res files in UTF8 without BOM.
+
+3.8.0.0 (05-12-2013)
+--------------------
+. Fixed some bugs when working with 'common' folder.
+
+3.7.2.0 (12-27-2012)
+--------------------
+. Adding detection of csgo special files (loading and overviews)
+
+3.7.0.0 (11-18-2012)
+--------------------
+. Fixed vpk V2 reading error
+
+3.6.0.0 (10-29-2012)
+--------------------
+. Spr, mdl and wav files are now commented in res files
+
+3.5.2.0 (10-23-2012)
+--------------------
+. Fixed bug for commented wads in res files
+
+3.5.1.0 (09-16-2012)
+--------------------
+. Changed tabs organization to gain place
+. Added support for vtf textures
+
+3.0.1.0 (09-15-2012)
+--------------------
+. Added support for global offensive .kv files 
+. Added "Changelog" functionnality
+

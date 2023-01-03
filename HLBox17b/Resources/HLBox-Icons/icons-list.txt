@@ -1,0 +1,7 @@
+.\ICON_0.ico
+.\ICON_1.ico
+.\ICON_2.ico
+.\ICON_3.ico
+.\ICON_4.ico
+.\ICON_5.ico
+.\ICON_6.ico

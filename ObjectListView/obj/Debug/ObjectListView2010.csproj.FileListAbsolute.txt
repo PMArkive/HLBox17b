@@ -1,0 +1,9 @@
+C:\Users\Didier\Documents\Privé\Projets VC\HLBox17b2\ObjectListView\bin\Debug\ObjectListView.XML
+C:\Users\Didier\Documents\Privé\Projets VC\HLBox17b2\ObjectListView\bin\Debug\ObjectListView.dll
+C:\Users\Didier\Documents\Privé\Projets VC\HLBox17b2\ObjectListView\bin\Debug\ObjectListView.pdb
+C:\Users\Didier\Documents\Privé\Projets VC\HLBox17b2\ObjectListView\obj\Debug\ObjectListView2010.csprojResolveAssemblyReference.cache
+C:\Users\Didier\Documents\Privé\Projets VC\HLBox17b2\ObjectListView\obj\Debug\BrightIdeasSoftware.Properties.Resources.resources
+C:\Users\Didier\Documents\Privé\Projets VC\HLBox17b2\ObjectListView\obj\Debug\BrightIdeasSoftware.ColumnSelectionForm.resources
+C:\Users\Didier\Documents\Privé\Projets VC\HLBox17b2\ObjectListView\obj\Debug\ObjectListView2010.csproj.GenerateResource.Cache
+C:\Users\Didier\Documents\Privé\Projets VC\HLBox17b2\ObjectListView\obj\Debug\ObjectListView.dll
+C:\Users\Didier\Documents\Privé\Projets VC\HLBox17b2\ObjectListView\obj\Debug\ObjectListView.pdb
